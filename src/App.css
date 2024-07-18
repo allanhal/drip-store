@@ -1,0 +1,221 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: inter, sans-serif;
+    font-size: 15px;
+    width: 1440px;
+  }
+  .nav {
+    margin-top: 40px;
+    width: 1440px;
+    height: 192px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .nav-1 {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    align-items: center;
+  }
+  .nav-1 .image-logo {
+    width: 253px;
+    height: 44px;
+    top: 42px;
+    left: 104px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+  }
+  #search {
+    width: 559px;
+    height: 44px;
+    top: 34px;
+    left: 384px;
+    border-radius: 8px;
+    opacity: 4%;
+    background: #474747;
+  }
+  #search .placeholder {
+    color: white;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .register-button {
+    width: 115px;
+    height: 28px;
+    top: 50px;
+    left: 991px;
+    gap: 0px;
+    opacity: 0px;
+    color: #474747;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .register-button .text-button{
+    opacity: 0px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #474747;
+    text-decoration: underline;
+  }
+  .enter-button {
+    Property 1="Default";
+    width: 114px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px;
+    background: #c92071;
+    color: #F5F5F5;
+    border: none;
+    cursor: pointer;
+  }
+  .enter-button .text-button-2{
+    width: 114px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    styleName: Text X-Small Bold;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: center;
+  }
+  .icon-carrinho{
+    width: 33px;
+    height: 29px;
+    top: 47px;
+    left: 1307px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+  }
+  .menu {
+    padding-top: 40px;
+    padding-left: 14px;
+    display: flex;
+  }
+  .menu-lista {
+    display: flex;
+    width: 423px;
+    height: 29px;
+    top: 134px;
+    left: 100px;
+    gap: 40px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+    list-style: none;
+    cursor: pointer;
+  }
+  .menu-lista li:hover{
+    color: #c92071;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .menu-lista .options{
+    width: 1440px;
+    height: 192px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1440px;
+    height: 681px;
+    top: 194px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F5F5F5;
+  }
+  .grid-1{
+    margin-left: 50px;
+    margin-top: 75px;
+    width: 510px;
+    height: 352px;
+    top: 318px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .grid-1 .text-hero{
+    width: 280px;
+    height: 24px;
+    top: 100px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    styleName: Text Small Bold;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #F6AA1C;
+  }
+  .grid-1 .title-hero{
+    width: 510px;
+    height: 132px;
+    top: 362px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+    color: #1F1F1F;
+  } 
+  .grid-1 .paragraph-hero{
+    width: 495px;
+    height: 68px;
+    top: 514px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    styleName: Text Medium - Desktop;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #474747;
+  }
+  .grid-1 .button-hero .offer-button{
+    width: 220px;
+    height: 48px;
+    margin-top: 40px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px;
+    border: none;
+    background: #C92071;
+    color: #F5F5F5;
+    styleName: Text Small Bold;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .grid-2 img{
+  
+  }
